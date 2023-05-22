@@ -4,7 +4,7 @@ import json
 
 from outside_apis.telegram_api import send_message, set_webhook, set_menu_commands
 from helper.utils import process_request, generate_response
-from outside_apis.database_api import get_user, create_user, update_messages, create_payment, get_all_user
+#from outside_apis.database_api import get_user, create_user, update_messages, create_payment, get_all_user
 
 
 from flask import Flask, request
